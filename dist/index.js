@@ -58,7 +58,7 @@ var MockKnex = function () {
           found = version = v;
         }
 
-        return found > 0;
+        return found;
       });
 
       if (!extracted) {
